@@ -7,7 +7,7 @@ This program implements the *tail* command in C for the xv6 operating system.
 
 ## Examples of the usage of tail:
 
-> $ tail README
+> $ tail README<br>
 To build xv6 on an x86 ELF machine (like Linux or FreeBSD), run "make". On non-x86 or
  → non-ELF machines (like OS X, even on x86), you will need to install a cross-compiler
  → gcc suite capable of producing x86 ELF binaries. See
@@ -19,7 +19,7 @@ To create a typeset version of the code, run "make xv6.pdf". This requires the "
  
 ---
 
-> $ grep the README | tail
+> $ grep the README | tail<br>
 Version 6 (v6). xv6 loosely follows the structure and style of v6, xv6 borrows code from
  → the following sources: JOS (asm.h, elf.h, mmu.h, bootasm.S, ide.c, console.c, and
  → others) Plan 9 (entryother.S, mp.h, mp.c, lapic.c) In addition, we are grateful for
@@ -30,6 +30,6 @@ To create a typeset version of the code, run "make xv6.pdf". This requires the "
 
 ---
 
->$ tail -2 README
+>$ tail -2 README<br>
 To create a typeset version of the code, run "make xv6.pdf". This requires the "mpage"
  → utility. See http://www.mesa.nl/pub/mpage/.’’’ 
